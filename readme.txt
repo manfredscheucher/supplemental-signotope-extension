@@ -1,6 +1,6 @@
 This repository contains supplemental material to the article 
 "An extension theorem for signotopes"
-by Helena Bergold, Manfred Scheucher, and Stefan Felsner
+by Helena Bergold, Stefan Felsner, and Manfred Scheucher
 see http://arxiv.org/abs/2303.04079
 
 In the "examples" folder, we provide non-extendable examples for ranks 4, 6, 8, 10, and 12. 
