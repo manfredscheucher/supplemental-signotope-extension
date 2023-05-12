@@ -1,3 +1,8 @@
+This repository contains supplemental material to the article 
+"An extension theorem for signotopes"
+by Helena Bergold, Manfred Scheucher, and Stefan Felsner
+see http://arxiv.org/abs/2303.04079
+
 In the "examples" folder, we provide non-extendable examples for ranks 4, 6, 8, 10, and 12. 
 The files are plain text format, each line encodes a signotope, 
 and the symbols (either plus or minus) of a line 
