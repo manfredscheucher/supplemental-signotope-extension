@@ -329,8 +329,12 @@ if not args.dontsolve:
 
 	if args.solver == "cadical":
 		print ("use pysat/Cadical")
-		from pysat.solvers import Cadical	
-		solver = Cadical()
+		try:
+			from pysat.solvers import Cadical	
+			solver = Cadical()
+		except ImportError:
+			from pysat.solvers import Cadical153	
+			solver = Cadical153()
 		for c in constraints: solver.add_clause(c)
 		solution_iterator = solver.enum_models()
 	else:
